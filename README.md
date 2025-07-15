@@ -12,7 +12,7 @@ This project analyzes retail sales data using SQL, focusing on product sales per
 
 ## Data Cleaning
 
-1. Python was used to standardize inconsistent date formats in `Order Date` and `Ship Date` columns (e.g., 2/12/2016 to 02-12-2016), convert to YYYY-MM-DD format, and resolve encoding issues by converting the dataset to UTF-8 format, fixing a `UnicodeDecodeError` encountered during CSV import in PostgreSQL database. [Pre-SQL Cleaned Dataset]()
+1. Python was used to standardize inconsistent date formats in `Order Date` and `Ship Date` columns (e.g., 2/12/2016 to 02-12-2016), convert to YYYY-MM-DD format, and resolve encoding issues by converting the dataset to UTF-8 format, fixing a `UnicodeDecodeError` encountered during CSV import in PostgreSQL database. [Pre-SQL Cleaned Dataset](https://github.com/kaustubh-ds/Stores-Sales-Analysis/blob/main/data/stores_sales_forecasting_utf8.csv)
 2. SQL was used to remove leading and trailing whitespace from all text columns using the TRIM() function, and to identify and remove duplicate rows. Dataset did not contain any `NULL` or missing values.
 
 There were 2120 total rows in the table after data cleaning.
